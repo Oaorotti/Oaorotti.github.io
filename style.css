@@ -169,7 +169,24 @@ nav span {
 
 nav ul button {
     margin-left: 20px;
+    width: 30%;
+    font-size: 1.2rem;
+    padding: 10px 20px;
     transition: transform .2s;
+}
+
+@media screen and (min-width: 768px) {
+    button {
+        width: 30%;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    button {
+        width: 20%;
+        font-size: 2rem;
+    }
 }
 
 nav ul button:hover {
