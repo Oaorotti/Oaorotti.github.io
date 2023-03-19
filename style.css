@@ -62,14 +62,18 @@ nav {
     top: 20%;
     position: absolute;
     left: 50%;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     animation: move 2s ease-in-out forwards;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.5);
+}
+
+.Content img {
+    max-width: 100%;
+    height: auto;
 }
 
 @keyframes move {
@@ -87,7 +91,7 @@ nav {
     top: 50%;
     left: 8%;
     transform: translateY(-50);
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 
 #joaow {
