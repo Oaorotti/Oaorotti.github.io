@@ -1,0 +1,251 @@
+/* Define a fonte Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Defina o corpo e o fundo da página */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #252424;
+    /* branco */
+    color: #000000;
+    /* preto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilize os cabeçalhos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* Estilize links */
+a {
+    color: #000000;
+    /* preto */
+    text-decoration: none;
+}
+
+/* Estilize os botões */
+button {
+    background-color: #00000000;
+    /* preto */
+    color: #ffffff;
+    /* branco */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* Estilize a navegação */
+nav {
+    background-color: #00000000;
+    /* preto */
+    color: #ffffff;
+    /* branco */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+    letter-spacing: 3px;
+}
+
+.Content {
+    top: 20%;
+    position: absolute;
+    left: 50%;
+    animation: move 2s ease-in-out forwards;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes move {
+    from {
+        left: -50%;
+    }
+
+    to {
+        left: 50%;
+    }
+}
+
+.Main h4 {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50);
+    font-size: 37px;
+}
+
+#joaow {
+    color: #4441d6;
+}
+
+.Main h2 {
+    position: absolute;
+    top: 55%;
+    left: 8%;
+    transform: translateY(-50);
+    font-size: 27px;
+}
+
+.Main-About-Me h2 {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translateY(-50);
+    font-size: 27px;
+}
+
+.Main-About-Me h3 {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50);
+    font-size: 27px;
+}
+
+#github {
+    color: rgb(24, 109, 66);
+    text-decoration: underline;
+}
+
+#linkedin {
+    color: rgb(40, 87, 187);
+    text-decoration: underline;
+}
+
+.Main-Contact h2 {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    font-size: 27px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#Node {
+    color: rgb(24, 155, 89);
+}
+
+#Cpp {
+    color: rgb(184, 18, 128);
+}
+
+#Unity {
+    color: rgb(148, 125, 133);
+}
+
+#Gamehacking {
+    color: rgb(105, 34, 172);
+}
+
+
+nav span {
+    color: rgb(105, 34, 172);
+}
+
+nav ul button {
+    margin-left: 20px;
+    transition: transform .2s;
+}
+
+nav ul button:hover {
+    color: rgb(105, 34, 172);
+    transform: scale(1.2);
+}
+
+/* Estilize o rodapé */
+footer {
+    background-color: #000000;
+    /* preto */
+    color: #ffffff;
+    /* branco */
+    padding: 20px;
+    text-align: center;
+}
+
+.Main-Projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.image-box {
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.left-top {
+    order: 1;
+}
+
+.right-top {
+    order: 2;
+}
+
+.left-bottom {
+    order: 3;
+}
+
+.right-bottom {
+    order: 4;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Main-Habilities {
+    padding: 10%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    font-weight: bold;
+    margin-right: 10px;
+    color: rgb(139, 136, 136);
+}
+
+.skill-bar {
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    background-color: #24614a;
+    height: 100%;
+    border-radius: 5px;
+}

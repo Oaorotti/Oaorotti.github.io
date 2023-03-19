@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+<body>
+    <nav>
+        <h2>Port<span>Fólio</span></h2>
+        <ul class="links-header">
+            <button onclick="redirectMain()">Inicio</button>
+            <button onclick="redirectAboutMe()">Sobre mim</button>
+            <button onclick="redirectContact()">Contato</button>
+            <button onclick="redirectProjects()">Projetos</button>
+            <button onclick="redirectHabilities()">Habilidades</button>
+        </ul>
+    </nav>
+
+    <div class="Main-Projects">
+        <div class="image-box left-top">
+            <img src="https://media.discordapp.net/attachments/852952830305632296/975472314013589574/Animation.gif"
+                alt="Imagem 1">
+        </div>
+        <div class="image-box right-top">
+            <img src="https://media.discordapp.net/attachments/852965490715525150/976947723620192296/unknown.png"
+                alt="Imagem 2">
+        </div>
+        <div class="image-box left-bottom">
+            <img src="https://media.discordapp.net/attachments/852965490715525150/976949711682568202/Animation.gif"
+                alt="Imagem 3">
+        </div>
+        <div class="image-box right-bottom">
+            <img src="https://cdn.discordapp.com/attachments/852951973812895764/1086860976416108554/5c6afdad-f14c-4b6f-ab5e-c858591ed05f.gif"
+                alt="Imagem 4">
+        </div>
+
+    </div>
+
+    <script>
+        function redirectMain() {
+            window.location.href = "../index.html";
+        }
+        function redirectAboutMe() {
+            window.location.href = "about-me.html";
+        }
+        function redirectContact() {
+            window.location.href = "contact.html";
+        }
+        function redirectProjects() {
+            window.location.href = "projects.html";
+        }
+        function redirectHabilities() {
+            window.location.href = "habilities.html";
+        }
+    </script>
+
+</body>
+
+</html>

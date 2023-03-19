@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+<body>
+    <nav>
+        <h2>Port<span>Fólio</span></h2>
+        <ul class="links-header">
+            <button onclick="redirectMain()">Inicio</button>
+            <button onclick="redirectAboutMe()">Sobre mim</button>
+            <button onclick="redirectContact()">Contato</button>
+            <button onclick="redirectProjects()">Projetos</button>
+            <button onclick="redirectHabilities()">Habilidades</button>
+        </ul>
+    </nav>
+
+    <div class="Main-About-Me">
+        <h2>Um programador <span id="Node">Node.JS </span>de 18 anos. afficionado desde os 12. <br> iniciei meus
+            estudos com
+            <span id="Cpp">C++,</span> aprendendo
+            <span id="Gamehacking">Gamehacking</span> e
+            depois fui me aventurar <br>utilizando a Game Engine <span id="Unity">Unity </span>
+        </h2>
+
+        <h3>Ao longo do caminho fiz diversos projetos pessoais na Unity onde você pode clicar lá em cima e ver!</h3>
+    </div>
+
+    <script>
+        function redirectMain() {
+            window.location.href = "../index.html";
+        }
+        function redirectAboutMe() {
+            window.location.href = "about-me.html";
+        }
+        function redirectContact() {
+            window.location.href = "contact.html";
+        }
+        function redirectProjects() {
+            window.location.href = "projects.html";
+        }
+        function redirectHabilities() {
+            window.location.href = "habilities.html";
+        }
+    </script>
+
+</body>
+
+</html>

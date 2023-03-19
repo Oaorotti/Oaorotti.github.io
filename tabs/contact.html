@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+<body>
+    <nav>
+        <h2>Port<span>Fólio</span></h2>
+        <ul class="links-header">
+            <button onclick="redirectMain()">Inicio</button>
+            <button onclick="redirectAboutMe()">Sobre mim</button>
+            <button>Contato</button>
+            <button onclick="redirectProjects()">Projetos</button>
+            <button onclick="redirectHabilities()">Habilidades</button>
+        </ul>
+    </nav>
+
+    <div class="Main-Contact">
+        <h2>Você pode me contatar pelo meu <a id="linkedin" href="">Linkedin</a> ou pelo meu <a id="github"
+                href="https://github.com/oaorotti">Github</a>.<br>
+            Vou tentar
+            te retornar o mais
+            rapido
+            possivel 😉
+        </h2>
+    </div>
+
+    <script>
+        function redirectMain() {
+            window.location.href = "../index.html";
+        }
+        function redirectAboutMe() {
+            window.location.href = "about-me.html";
+        }
+        function redirectContact() {
+            window.location.href = "contact.html";
+        }
+        function redirectProjects() {
+            window.location.href = "projects.html";
+        }
+        function redirectHabilities() {
+            window.location.href = "habilities.html";
+        }
+    </script>
+
+</body>
+
+</html>
